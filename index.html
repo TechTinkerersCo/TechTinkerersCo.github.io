@@ -1,13 +1,147 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head>
-  <title>Tech Tinkerers Co</title>
-  <link rel="icon" type="image/x-icon" href="/Images/Logo.ico">
-</head>
-<body>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Big Brain Consultants</title>
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>        
+        <link rel="stylesheet" href="teststyle.css" type="text/css"/>
+    </head>
+    <body>
+<!--       NAVIGATION BAR SECTION                 -->
+        <div class="headerbox">
+            <a href="TestCode.html"><img class="floatpad logo" src="Wallpaper.jpg" height="125" width="125" alt="Logo"></a>
+            <h1 class="floatpad header1">Big Brain Consultants</h1>   
+            <div>            
+                <div class="dropdown">
+                    <a href="#service"><button type="floatpad button" class="button">Services</button></a>
+                    <div class="dropdown-content">
+                        <a href="#about">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                        <a href="#">Link 4</a>
+                    </div>
+                </div>
+                <a href="#about"><button type="floatpad button" class="button">About Us</button></a>
+                <a href="#team"><button type="floatpad button" class="button">Our Team</button></a>
+                <a href="#contact-us"><button type="floatpad button" class="button">Contact Us</button></a>      
+            </div>
 
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
+        <button class="hamburger">
+            <div class="bar"></div>
+        </button>
+        </div>
+        <nav class="mobile-nav">
+            <a class="mobile-link" href="#service"><button class="inside-mobile">Services</button></a>
+            <a class="mobile-link" href="#about"><button class="inside-mobile">About Us</button></a>
+            <a class="mobile-link" href="#team"><button class="inside-mobile">Our Team</button></a>
+            <a class="mobile-link" href="#contact-us"><button class="inside-mobile">Contact Us</button></a>
+        </nav>
+<!--       VISION SECTION                 -->
+        <div class="viscontainer">
+            <img class="visback" src="sampleconstruction.jpg" height="400" max-width="100%" alt="background">
+            <h2 class="header2">Lorem ipsum dolor sit amet.</h2>
+        </div>
+<!--       ABOUT US SECTION                 -->
+        <div id="about">
+            <div class="aboutback">
+                <div>
+                    <h2 class="floatpad left-fade">About us</h2>
+                    <p class="left-fade">random stuff about us<br> blahh blahhblahh blahh blahh <br> blahh blahh blahh blahh </p>
+                </div>
+                    <img class="floatpad right-fade"src="sampleabout.jpg" height="300" width="500" alt="background">
+                </div>
+            </div>
+        </div>    
+<!--       OFFER FREE CALL SECTION                 -->
+        <div class="free-call-back">
+            <div class="vertical">
+            <p style="font-size: 30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, temporibus!</p>
+            <a href="#contact-us"><button class="form-enquire-item9">Enqiure Now</button></a>
+            </div>
+        </div>
+<!--       OUR SERVICES SECTION                 -->
+        <div id="service">
+            <h2 class=" floatpad servicehead">Our Services</h2>
+            <div class="servicecontainer">
+                <div>
+                    <a href="#">
+                        <img class="left-fade" src="sampleabout.jpg" height="300" width="500" alt="background">
+                    </a>
+                    <h2 class="servhead left-fade">First Service</h2>
+                    <p class="servhead left-fade">Lorem ipsum dolor <br>sit amet consectetur <br>adipisicing elit. Iusto, totam!                </p>
+                </div>
+                <div>
+                    <a href="#">
+                        <img class="right-fade" src="sampleabout.jpg" height="300" width="500" alt="background">
+                    </a>
+                    <h2 class="servhead right-fade">Second Service</h2>
+                    <p class="servhead right-fade">Lorem ipsum dolor <br>sit amet consectetur <br>adipisicing elit. Iusto, totam!                </p>
+                </div>
+            </div>
+        </div>
+        <div class="floatpad servicecontainer">
+            <div>
+                <a href="#">
+                    <img class="left-fade" src="sampleabout.jpg" height="300" width="500" alt="background">
+                </a>
+                <h2 class="servhead left-fade">Third Service</h2>
+                <p class="servhead left-fade">Lorem ipsum dolor <br>sit amet consectetur <br>adipisicing elit. Iusto, totam!                </p>
+            </div>
+            <div>
+                <a href="#">
+                    <img class="right-fade"src="sampleabout.jpg" height="300" width="500" alt="background">
+                </a>
+                <h2 class="servhead right-fade">Fourth Service</h2>
+                <p class="servhead right-fade">Lorem ipsum dolor <br>sit amet consectetur <br>adipisicing elit. Iusto, totam!                </p>
+            </div>
+        </div>
+<!--       OUR TEAM SECTION                 -->
+            <div id="team">
+                <div class="teamback">
+                    <div class="floatpad teamhflex">
+                        <h2>Our Team</h2>
+                    </div>
+                    <div class="imgflex">
+                        <img class="logo left-fade" src="coverhasbully.jpg" height="160" width="160">
+                        <img class="logo left-fade" src="coverhasbully.jpg" height="160" width="160">
+                        <img class="logo left-fade" src="coverhasbully.jpg" height="160" width="160">
+                    </div>
+                    <div class="floatpad descflex">
+                        <p class="desctext left-fade">jnsdncshbfsbk<br>hbwhcbwheb</p>
+                        <p class="desctext left-fade">jnsdncshbfsbk<br>hbwhcbwheb</p>
+                        <p class="desctext left-fade">jnsdncshbfsbk<br>hbwhcbwheb</p>
+                    </div>
+                </div>
+            </div>
+<!--       CONTACT US SECTION                 -->
+        <div id="contact-us">
+            <div class="icon-grid">
+                <a class="icon-grid-item1" href="mailto:email@gmail.com"><img class="icon" src="emailicon.png" height="100" width="80" alt="Logo"></a>
+                <a class="icon-grid-item2" href="tel:04205283"><img class="icon" src="phoneicon.png" height="100" width="80" alt="Logo"></a>
+                <a class="icon-grid-item3" href=""><img class="icon" src="linkdinicon.png" height="100" width="80" alt="Logo"></a>
+                <a class="icon-grid-item4" href=""><img class="icon" src="twittericon.png" height="100" width="80" alt="Logo"></a>
+                <a class="icon-grid-item5" href="mailto:email@gmail.com"><p>Email@gmail.com</p></a>
+                <a class="icon-grid-item6" href="tel:04205283"><p>04205283</p></a>
+                <a class="icon-grid-item7" href=""><p>BigBrainConsultants</p></a>
+                <a class="icon-grid-item8" href=""><p>@BigBrainConsultants</p></a>
+            </div>
+            
+            <div class="form-grid">
+                <p class="form-grid-item1">Name</p>
+                <p class="form-grid-item2">Phone no.</p>
+                <p class="form-grid-item3">Email</p>
+                <p class="form-grid-item4">Description</p>
+                <input id="form-grid-item5" onblur = "fieldCheck()" autocomplete="on" type="text" name="fname" placeholder="John Doe"></input>
+                <input id="form-grid-item6" onblur = "fieldCheck()" autocomplete="on" type="text" name="phone" placeholder="0452484955"></input>
+                <input id ="form-grid-item7" onblur = "fieldCheck()" autocomplete="on" type="text" name="email" placeholder="email@gmail.com"></input>
+                <input id="form-grid-item8" onblur = "fieldCheck()" autocomplete="on" type="text" name="description" placeholder="IDK"></input>
+                <button class="form-enquire-item9">Enquire</button>
 
-</body>
+
+            </div>
+        </div>
+            
+    <script src="js/bootstrap.js"></script>
+    <script src="testjs.js"></script>
+    </body>
 </html>
